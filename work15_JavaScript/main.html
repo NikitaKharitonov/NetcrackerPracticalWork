@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Main</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <script>
+            window.onload = function() {
+                // задание 1
+                let inputName = "";
+                let defaultName = "Ivan";
+                document.getElementById("name_input").value = defaultName;
+                document.getElementById("name_input").onfocus = function() {
+                    if (inputName === "")
+                        document.getElementById("name_input").value = ""
+                };
+                document.getElementById("name_input").onblur = function() {
+                    if (document.getElementById("name_input").value === "")
+                        document.getElementById("name_input").value = defaultName
+                    else inputName = document.getElementById("name_input").value
+                };
+
+                // задание 2
+                document.getElementById("phone_button").onclick = function () {
+                    let value = document.getElementById("phone_input").value;
+                    if(isNaN(value))
+                        alert("Must input number")
+                };
+
+                // задание 3
+                let links = document.getElementsByClassName("remove");
+                for (let i = 0; i < links.length; ++i) {
+                    let link = links.item(i);
+                    link.onclick = function () {
+                        if (confirm("Delete employee"))
+                            link.parentNode.parentNode.parentNode.removeChild(link.parentNode.parentNode)
+                    }
+                }
+
+                // задание 4
+                document.getElementById("confirm_name").onclick = function() {
+                    inputName = document.getElementById("name_input").value;
+                    document.location.href = "save_name.html?name=" + inputName
+                };
+            }
+        </script>
+        <div><label> Phone number:<br /> <input id="phone_input" type="text" /> <button id="phone_button">Confirm</button> </label></div>
+        <div><label> Name:<br /> <input id="name_input" type="text" /> <button id="confirm_name">Confirm</button> </label></div><br>
+        <div><button id="all_empl_btn">Get information about all employees</button></div><br>
+        <div><a href="add_employee.html" target="_blank">Add employee</a></div><br><br>
+        <div>
+            <table border="1"><caption>Employees</caption>
+                <tbody>
+                <tr>
+                    <th></th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Date</th>
+                    <th>Department</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>1</td>
+                    <td>Ivan</td>
+                    <td>Manager</td>
+                    <td>11.12.2020</td>
+                    <td>Production</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>2</td>
+                    <td>Petr</td>
+                    <td>Assessor</td>
+                    <td>09.02.2018</td>
+                    <td>Production</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>3</td>
+                    <td>Anna</td>
+                    <td>Auditor</td>
+                    <td>12.04.2019</td>
+                    <td>Production</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>4</td>
+                    <td>Yana</td>
+                    <td>Bookkeeper</td>
+                    <td>23.05.2019</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>5</td>
+                    <td>Oleg</td>
+                    <td>Budget analyst</td>
+                    <td>01.05.2018</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>6</td>
+                    <td>Dana</td>
+                    <td>Budget analyst</td>
+                    <td>01.10.2018</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>7</td>
+                    <td>Yuliya</td>
+                    <td>Budget analyst</td>
+                    <td>04.09.2020</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>8</td>
+                    <td>Zakhar</td>
+                    <td>Budget analyst</td>
+                    <td>23.09.2018</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>9</td>
+                    <td>Pavel</td>
+                    <td>Budget analyst</td>
+                    <td>07.09.2019</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                <tr>
+                    <td><label>
+                        <input type="checkbox" />
+                    </label></td>
+                    <td>10</td>
+                    <td>John</td>
+                    <td>Budget analyst</td>
+                    <td>01.09.2018</td>
+                    <td>Marketing</td>
+                    <td><a class="remove">remove</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

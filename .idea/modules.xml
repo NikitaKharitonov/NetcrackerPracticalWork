@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NetcrackerPracticalWork.iml" filepath="$PROJECT_DIR$/NetcrackerPracticalWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work18_Servlets/work18_Servlets.iml" filepath="$PROJECT_DIR$/work18_Servlets/work18_Servlets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work19_JSP_task1/work19_JSP_task1.iml" filepath="$PROJECT_DIR$/work19_JSP_task1/work19_JSP_task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work19_JSP_task2/work19_JSP_task2.iml" filepath="$PROJECT_DIR$/work19_JSP_task2/work19_JSP_task2.iml" />
+    </modules>
+  </component>
+</project>

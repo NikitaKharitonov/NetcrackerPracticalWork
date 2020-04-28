@@ -1,0 +1,21 @@
+div {
+    top: 20%;
+    left: 30%;
+    border: 1px solid black;
+    padding: 8px;
+    float: left;
+    position: absolute;
+}
+table, td, th {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+form {
+    padding: 8px;
+    border: 1px solid black;
+}

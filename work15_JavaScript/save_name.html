@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        window.onload = function() {
+            let url = document.location.href;
+            let name = url.split('?')[1].split("name=")[1];
+            document.getElementById("name").innerHTML = "Name: " + name
+        }
+    </script>
+    <div><label id="name">Name: </label></div><br>
+    <div><button>Save name</button></div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<group>
+    <student firstname="Ivan" lastname="Ivanov" groupnumber="1234">
+        <subject title="math" mark="5"/>
+        <subject title="physics" mark="5"/>
+        <subject title="history" mark="5"/>
+        <avrage>4</avrage>
+    </student>
+    <student firstname="Petr" lastname="Petrov" groupnumber="1234">
+        <subject title="math" mark="5"/>
+        <subject title="physics" mark="4"/>
+        <avrage>4</avrage>
+    </student>
+</group>
