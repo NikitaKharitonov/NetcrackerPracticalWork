@@ -1,0 +1,8 @@
+form {
+    top: 20%;
+    left: 30%;
+    border: 1px solid black;
+    padding: 8px;
+    float: left;
+    position: absolute;
+}

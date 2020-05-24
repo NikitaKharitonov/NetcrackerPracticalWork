@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/work18_Servlets/work18_Servlets.iml" filepath="$PROJECT_DIR$/work18_Servlets/work18_Servlets.iml" />
       <module fileurl="file://$PROJECT_DIR$/work19_JSP_task1/work19_JSP_task1.iml" filepath="$PROJECT_DIR$/work19_JSP_task1/work19_JSP_task1.iml" />
       <module fileurl="file://$PROJECT_DIR$/work19_JSP_task2/work19_JSP_task2.iml" filepath="$PROJECT_DIR$/work19_JSP_task2/work19_JSP_task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work20_EJB_task1-4/work20_EJB_task1-4.iml" filepath="$PROJECT_DIR$/work20_EJB_task1-4/work20_EJB_task1-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work20_EJB_task5/work20_EJB_task5.iml" filepath="$PROJECT_DIR$/work20_EJB_task5/work20_EJB_task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work22_JMS/work22_JMS.iml" filepath="$PROJECT_DIR$/work22_JMS/work22_JMS.iml" />
     </modules>
   </component>
 </project>
