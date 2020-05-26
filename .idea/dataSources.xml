@@ -7,11 +7,5 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/orcl</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="work22_JMS@localhost" uuid="983f19b2-e69e-423c-a615-46b8ae0bc9af">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/work22_JMS</jdbc-url>
-    </data-source>
   </component>
 </project>

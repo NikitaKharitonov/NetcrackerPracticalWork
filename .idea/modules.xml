@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/work20_EJB_task1-4/work20_EJB_task1-4.iml" filepath="$PROJECT_DIR$/work20_EJB_task1-4/work20_EJB_task1-4.iml" />
       <module fileurl="file://$PROJECT_DIR$/work20_EJB_task5/work20_EJB_task5.iml" filepath="$PROJECT_DIR$/work20_EJB_task5/work20_EJB_task5.iml" />
       <module fileurl="file://$PROJECT_DIR$/work22_JMS/work22_JMS.iml" filepath="$PROJECT_DIR$/work22_JMS/work22_JMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work23_EJB3/work23_EJB3.iml" filepath="$PROJECT_DIR$/work23_EJB3/work23_EJB3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work24_JSF/work24_JSF.iml" filepath="$PROJECT_DIR$/work24_JSF/work24_JSF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work25_AJAX/work25_AJAX.iml" filepath="$PROJECT_DIR$/work25_AJAX/work25_AJAX.iml" />
     </modules>
   </component>
 </project>

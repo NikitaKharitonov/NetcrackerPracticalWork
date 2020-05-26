@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>Index</servlet-name>
-        <servlet-class>org.tempuri.Index</servlet-class>
+        <servlet-class>org.example.Index</servlet-class>
     </servlet>
 
     <servlet-mapping>

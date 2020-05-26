@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<head>
+    <title>Home</title>
+    <h:outputStylesheet library="styles" name="style.css"/>
+</head>
+<body>
+<h:form styleClass="main-container">
+    <h:outputLabel value="Минималное значение: "/>
+    <br/><br/>
+    <h:inputText value="#{gameBean.min}"/>
+    <br/><br/>
+    <h:outputLabel value="Максимальное значение: "/>
+    <br/><br/>
+    <h:inputText value="#{gameBean.max}"/>
+    <br/><br/>
+    <h:commandButton value="Далее" action="#{gameBean.check}"/>
+</h:form>
+</body>
+</html>

@@ -1,4 +1,4 @@
-package org.tempuri;
+package org.example;
 
 import javax.ejb.*;
 

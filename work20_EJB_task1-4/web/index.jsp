@@ -1,9 +1,8 @@
 <%@ page import="javax.naming.InitialContext" %>
 <%@ page import="javax.naming.NamingException" %>
 <%@ page import="javax.naming.Context" %>
-<%@ page import="org.tempuri.CalculatorIntf" %>
-<%@ page import="org.tempuri.Calculator" %>
-<%@ page import="org.tempuri.CalculatorIntf" %>
+<%@ page import="org.example.CalculatorIntf" %>
+<%@ page import="org.example.Calculator" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

@@ -4,6 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+
     <servlet>
         <servlet-name>Index</servlet-name>
         <servlet-class>org.example.Index</servlet-class>
@@ -13,19 +17,26 @@
         <servlet-name>Index</servlet-name>
         <url-pattern>/index.html</url-pattern>
     </servlet-mapping>
-
+    
     <servlet-mapping>
         <servlet-name>Index</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <resource-env-ref>
-        <resource-env-ref-name>
-            bean/Calculator
-        </resource-env-ref-name>
-        <resource-env-ref-type>
-            org.example.Calculator
-        </resource-env-ref-type>
-    </resource-env-ref>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type >
+        <location>/error.jsp</location>
+    </error-page>
+
+    <resource-ref>
+        <res-ref-name>jdbc/orcl</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
 
 </web-app>

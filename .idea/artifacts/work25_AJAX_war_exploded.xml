@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="work25_AJAX:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/work25_AJAX_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="work25_AJAX/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="work25_AJAX" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
