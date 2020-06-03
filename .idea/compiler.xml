@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NetcrackerPracticalWork" />
+        <module name="work26_Hibernate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="NetcrackerPracticalWork" target="9" />
+      <module name="work26_Hibernate" target="9" />
+      <module name="work26_Hibernate2" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>

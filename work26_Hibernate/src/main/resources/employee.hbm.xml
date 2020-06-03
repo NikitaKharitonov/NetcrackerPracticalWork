@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "logic.Employee" table = "EMPLOYEE">
+
+        <id name = "employeeID" type = "int" column = "ID">
+            <generator class="native">
+                <param name="sequence">employee_id_seq</param>
+            </generator>
+        </id>
+
+        <property name = "name" column = "NAME" type = "string"/>
+        <property name = "job" column = "JOB" type = "string"/>
+        <one-to-one name="address" class="logic.Address" cascade="all"/>
+        <many-to-one name="department" class="logic.Department" column="FK_DEPTID"/>
+    </class>
+</hibernate-mapping>

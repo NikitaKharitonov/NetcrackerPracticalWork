@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+        <class name = "logic.Address" table = "ADDRESS">
+
+            <id name = "addressID" type = "int" column = "ID">
+                <generator class="foreign">
+                    <param name="property">employee</param>
+                </generator>
+            </id>
+
+            <property name = "addressValue" column = "ADDRESSVALUE" type = "string"/>
+            <one-to-one name="employee" class="logic.Employee" constrained="true" />
+        </class>
+</hibernate-mapping>

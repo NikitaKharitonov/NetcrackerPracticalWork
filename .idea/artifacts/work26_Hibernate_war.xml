@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="work26_Hibernate:war">
+    <output-path>$PROJECT_DIR$/work26_Hibernate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>work26_Hibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="work26_Hibernate.war">
+      <element id="artifact" artifact-name="work26_Hibernate:war exploded" />
+    </root>
+  </artifact>
+</component>

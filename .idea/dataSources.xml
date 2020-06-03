@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="orcl@localhost" uuid="668e928b-4938-4c10-bdec-cb98b8eb5856">
+    <data-source source="LOCAL" name="enterprise@localhost" uuid="55557976-d5f8-4a9e-9711-6347efee86b5">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/enterprise</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc/orcl" uuid="5338662c-c9e8-4505-b3c4-99664f875013">
+      <imported>true</imported>
+      <remarks>Tomcat.Resource
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work19_JSP_task2/web/META-INF/context.xml</remarks>
+      <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin//localhost:1521/orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="work26_Hibernate:src:resources:hibernate.cfg.xml/Hibernate" uuid="29926ceb-602c-4f8f-80cb-5793093f6a0d">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work26_Hibernate/src/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost/enterprise</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="resources:hibernate.cfg.xml/Hibernate" uuid="6e3657d4-b361-438d-b8fc-8094aa0b1ed3">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work25/src/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost/enterprise</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc/work22_JMS" uuid="4ae55f7e-47bf-4e8f-a823-3dff451d16b3">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Tomcat.Resource
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work22_JMS/web/META-INF/context.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/work22_JMS</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc/orcl" uuid="895b7a74-52b9-4dab-af4b-fadb775aa664">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Tomcat.Resource
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work20_EJB_task5/web/META-INF/context.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="6956eead-581a-4432-8e6d-a605b8059e5b">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work26_Hibernate2/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost/enterprise</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc/work22_JMS" uuid="86e54006-dd0e-4b18-acf5-3a53fe4168c8">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Tomcat.Resource
+
+C:/Users/Nikita/IdeaProjects/NetcrackerPracticalWork/work23_EJB3/web/META-INF/context.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/work22_JMS</jdbc-url>
     </data-source>
   </component>
 </project>
